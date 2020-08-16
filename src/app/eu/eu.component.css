@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline-style: none;
+	border-style: none;
+	box-sizing: border-box;
+}
+img{
+    width: 198px;
+    height: 225px;
+}
+#itemContainerId{
+    display:flex;
+    flex-direction: row;
+	justify-content:flex-start;
+    align-items: center;
+}
+#fieldDescriptionId{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 0.5em;
+}
+#fieldValueId{
+    font-weight: normal;
+    font-size: 20px;
+}
